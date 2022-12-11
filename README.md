@@ -42,4 +42,4 @@ class NowWeHaveExpressions(TeacherStudentsScene):
         self.wait(2)
 ```
 
-Enjoy your time with little cute pi!
+Enjoy your time playing with little cute pi!

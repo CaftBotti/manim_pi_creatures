@@ -4,7 +4,7 @@ All pi creatures appear in 3b1b video
 This repository is used for manim cairo-backend.
 We're trying making different versions like manimgl and manimce.
 
-# Usage
+## Usage
 **PiCreatures_happy.svg and so on**:
 
 These are different emotions of pi creatures. They are from https://www.3blue1brown.com/images/pi-creatures/happy.svg and so on.
@@ -18,7 +18,7 @@ We just put them in the repository for reference only, do not use them for comme
 This python file is from cairo-backend, but we changed it a little (line 53 ~ 56) to see all the pi creatures. Use the modified file instead of the original one
 to see cute pi.
 
-# Effect
+## Effect
 
 
 https://user-images.githubusercontent.com/111475301/206908960-0b212863-a691-4b41-8b21-d0a8d1ec2d98.mp4

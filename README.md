@@ -14,5 +14,5 @@ We just put them in the repository for reference only, do not use them for comme
 
 **pi_creature.py**:
 
-This python file is from cairo-backend, but we changed it a little (line 53 ~ 56) for all the pi creatures. Use the modified file instead of the original one
+This python file is from cairo-backend, but we changed it a little (line 53 ~ 56) to see all the pi creatures. Use the modified file instead of the original one
 to see cute pi.

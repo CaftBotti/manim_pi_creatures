@@ -9,7 +9,7 @@ We're trying making different versions like manimgl and manimce.
 
 These are different emotions of pi creatures. They are from https://www.3blue1brown.com/images/pi-creatures/happy.svg and so on.
 
-You need to put them in the `assets` folder.
+You need to put them in the `assets\PiCreature` folder.
 
 We just put them in the repository for reference only, do not use them for commercial purposes!
 

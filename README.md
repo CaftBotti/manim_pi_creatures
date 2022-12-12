@@ -43,3 +43,40 @@ class NowWeHaveExpressions(TeacherStudentsScene):
 ```
 
 Enjoy your time playing with little cute pi!
+
+# Installation of manim cairo-backend
+
+If you haven't installed cairo-backend yet or don't know how to install it, here is a tutorial:
+
+(cairo-backend is much easier to install than manimgl and manimce, I think)
+
++ Step 1
+
+Get the source code of cairo-backend: https://github.com/3b1b/manim/tree/cairo-backend
+
++ Step 2
+
+Use this command in the cairo-backend folder:
+
+```
+pip install -r requirements.txt
+```
+
+Ensure that you installed these requirements and set their path environments:
+
+`FFmpeg`, `dvisvgm` and `MikTeX`.
+
++ Step 3
+
+Create a python file and copy this code:
+
+```
+from manimlib.imports import *
+class Test(Scene):
+    def construct(self):
+        text = TextMobject('If you see this text, \\ you have successfully installed cairo-backend!)
+        self.play(Write(text))
+        self.wait(3)
+```
+
+If it's exporting a video, you have successfully installed cairo-backend.

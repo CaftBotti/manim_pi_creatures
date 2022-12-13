@@ -62,9 +62,9 @@ Use this command in the cairo-backend folder:
 pip install -r requirements.txt
 ```
 
-It will install some python site-packages, like numpy.
+It will install some python site-packages, like pycairo, scipy and numpy.
 
-And ensure that you installed these requirements and set their path environments:
+And please ensure that you installed these requirements and set their path environments:
 
 `FFmpeg`, `dvisvgm` and `MikTeX`.
 

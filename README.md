@@ -81,4 +81,8 @@ class Test(Scene):
         self.wait(3)
 ```
 
+You can name this file as `start.py` and then use this command:
+
+`python -m manim a.py`
+
 If it's exporting a video, you have successfully installed cairo-backend.

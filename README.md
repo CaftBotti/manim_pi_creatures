@@ -41,7 +41,6 @@ class NowWeHaveEmotions(TeacherStudentsScene):
                           added_anims=[self.teacher.change, "hooray"])
         self.play(self.teacher.change_mode, 'hooray')
         self.wait(2)
-        # self.students[1].change_mode('hooray'), \
         self.play(RemovePiCreatureBubble(self.students[1]), self.students[1].change_mode, 'hooray')
         self.wait(3)
 ```

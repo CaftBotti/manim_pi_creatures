@@ -31,7 +31,7 @@ from manimlib.for_3b1b_videos.pi_creature import *
 from manimlib.for_3b1b_videos.pi_class import *
 from manimlib.for_3b1b_videos.pi_creature_scene import *
 
-class NowWeHaveEmotions(TeacherStudentScene):
+class NowWeHaveEmotions(TeacherStudentsScene):
     def construct(self):
         self.change_student_modes('happy', 'hooray', 'well')
         self.play(self.teacher.change_mode, 'happy')

@@ -20,8 +20,7 @@ to see cute pi.
 
 ## Effect
 
-
-https://user-images.githubusercontent.com/111475301/206908960-0b212863-a691-4b41-8b21-d0a8d1ec2d98.mp4
+https://user-images.githubusercontent.com/111475301/209333597-63a97dca-75e8-4f96-9927-fa2bc4b925ff.mp4
 
 The source code is below:
 
@@ -32,14 +31,19 @@ from manimlib.for_3b1b_videos.pi_creature import *
 from manimlib.for_3b1b_videos.pi_class import *
 from manimlib.for_3b1b_videos.pi_creature_scene import *
 
-
-class NowWeHaveExpressions(TeacherStudentsScene):
+class NowWeHaveEmotions(TeacherStudentScene):
     def construct(self):
         self.change_student_modes('happy', 'hooray', 'well')
+        self.play(self.teacher.change_mode, 'happy')
         self.teacher_says('Now we have emotions!')
         self.wait()
-        self.student_says('Hooray!', student_index=1)
+        self.student_says('Hooray!', student_index=1, target_mode='hooray',
+                          added_anims=[self.teacher.change, "hooray"])
+        self.play(self.teacher.change_mode, 'hooray')
         self.wait(2)
+        # self.students[1].change_mode('hooray'), \
+        self.play(RemovePiCreatureBubble(self.students[1]), self.students[1].change_mode, 'hooray')
+        self.wait(3)
 ```
 
 Enjoy your time playing with little cute pi!

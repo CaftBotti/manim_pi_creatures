@@ -53,7 +53,8 @@ class PiCreature(SVGMobject):
     def __init__(self, mode=("plain", 'sassy', 'happy', 'hooray', 'sad', 'thinking', 'confused',
                              'angry', 'speaking', 'pleading', 'shruggie', 'maybe', 'surprised',
                              'well', 'pondering', 'erm', 'raise_right_hand', 'raise_left_hand',
-                             'guilty', 'hesitant', 'dance_kick', 'horrified', 'miner'), **kwargs):
+                             'guilty', 'hesitant', 'dance_kick', 'horrified', 'miner', 'dance_1',
+                             'dance_2', 'dance_3', 'gracious', 'frustrated', 'tired'), **kwargs):
         digest_config(self, kwargs)
         self.mode = mode
         self.parts_named = False

@@ -2,7 +2,7 @@
 All pi creatures appear in 3b1b video
 
 This repository is used for manim cairo-backend.
-We're trying making different versions. manimgl and manimce.
+We're trying making different versions like manimgl and manimce.
 
 ## Usage
 **PiCreatures_happy.svg and so on**:

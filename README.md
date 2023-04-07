@@ -1,22 +1,22 @@
 # Manim PiCreature
-All pi creatures appear in 3b1b video
 
-This repository is used for manim cairo-backend.
-We're trying making different versions like manimgl and manimce.
+All pi creatures that appear in 3b1b video
+
+This repository is used for manim cairo-backend. We're trying making different versions like manimgl and manimce.
+
+This repository includes all pi creatures that appear in 3b1b's videos, and some pi creatures made by myself that don't appear in 3b1b's videos. You can also upload your own pi creatures by pulling requests. ALL parts of the repository are public, and you can use them anywhere you want. However, we just put them here for reference only, do not use them for commercial purposes!
 
 ## Usage
+
 **PiCreatures_happy.svg and so on**:
 
 These are different emotions of pi creatures. They are from https://www.3blue1brown.com/images/pi-creatures/happy.svg and so on.
 
 You need to put them in the `assets\PiCreature` folder.
 
-We just put them in the repository for reference only, do not use them for commercial purposes!
-
 **pi_creature.py**:
 
-This python file is from cairo-backend, but we changed it a little (line 53 ~ 56) to see all the pi creatures. Use the modified file instead of the original one
-to see cute pi.
+This python file is from cairo-backend, but we changed it a little (line 53 ~ 56) to see all the pi creatures. Use the modified file instead of the original one to see cute pi.
 
 ## Effect
 
@@ -30,7 +30,6 @@ from manimlib.for_3b1b_videos.pi_creature_animations import *
 from manimlib.for_3b1b_videos.pi_creature import *
 from manimlib.for_3b1b_videos.pi_class import *
 from manimlib.for_3b1b_videos.pi_creature_scene import *
-
 class NowWeHaveEmotions(TeacherStudentsScene):
     def construct(self):
         self.change_student_modes('happy', 'hooray', 'well')
@@ -86,6 +85,6 @@ class Test(Scene):
 
 You can name this file as `start.py` and then use this command:
 
-`python -m manim a.py`
+`python -m manim start.py`
 
 If it's exporting a video, you have successfully installed cairo-backend.

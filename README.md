@@ -8,11 +8,15 @@ This repository includes all pi creatures that appear in 3b1b's videos, and some
 
 ## Usage
 
-**PiCreatures_happy.svg and so on**:
+**"PiCreature" folder**:
 
-These are different emotions of pi creatures. They are from https://www.3blue1brown.com/images/pi-creatures/happy.svg and so on.
+In this folder, there are different emotions of pi creatures. They are from https://www.3blue1brown.com/images/pi-creatures/happy.svg and so on.
 
-You need to put them in the `assets\PiCreature` folder.
+You need to put these SVG files in the `assets\PiCreature` folder. Copy the folder directly and replace the "assets\PiCreature" folder.
+
+**"non-3b1b" folder**:
+
+This folder contains some pi creatures' SVG file that made by myself, and they aren't in 3b1b's videos.
 
 **pi_creature.py**:
 

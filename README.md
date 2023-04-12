@@ -2,7 +2,7 @@
 
 All pi creatures that appear in 3b1b video.
 
-Note, **SVG files of designs of pi creatures have moved to the ["PiCreature" folder](https://github.com/CaftBotti/blob/main/PiCreature)** so that you can directly replace the "assets\PiCreature" folder in cairo-backend with the new one, and then you can make videos following steps in [usage](https://github.com/CaftBotti/manim_pi_creatures#usage).
+Note, **SVG files of designs of pi creatures have moved to the ["PiCreature" folder](https://github.com/CaftBotti/manim_pi_creatures/blob/main/PiCreature)** so that you can directly replace the "assets\PiCreature" folder in cairo-backend with the new one, and then you can make videos following steps in [usage](https://github.com/CaftBotti/manim_pi_creatures#usage).
 
 This repository is used for manim cairo-backend. We're trying making different versions like manimgl and manimce.
 

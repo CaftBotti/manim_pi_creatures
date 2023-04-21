@@ -1,12 +1,16 @@
 # Manim PiCreature
 
-All pi creatures that appear in 3b1b video.
+All pi creatures that appear in 3b1b video that is used for making pi creature scenes with manim.
+
+> Have you ever seen some lovely pi in 3b1b's videos? Do you want to make those animations as well? You may feel frustrated with that the original manim cairo-backend always makes emotionful pi creatures become "plain" because you only have "PiCreature_plain.svg" but not other designs! 
+>
+> Don't worry, we have found all of the SVG files of those designs and put them here! Clone this repo and dozens of pi creatures in the `PiCreature` folder, and then put them in `assets\PiCreature` path.
 
 Note, **SVG files of designs of pi creatures have moved to the ["PiCreature" folder](https://github.com/CaftBotti/manim_pi_creatures/blob/main/PiCreature)** so that you can directly replace the "assets\PiCreature" folder in cairo-backend with the new one, and then you can make videos following steps in [usage](https://github.com/CaftBotti/manim_pi_creatures#usage).
 
 This repository is used for manim cairo-backend. We're trying making different versions like manimgl and manimce.
 
-This repository includes all pi creatures that appear in 3b1b's videos, and some pi creatures made by myself that don't appear in 3b1b's videos. You can also upload your own designs by pulling requests. ALL parts of the repository are public, and you can use them anywhere you want. However, we just put them here for reference only, do not use them for commercial purposes!
+This repository includes all pi creatures that appear in 3b1b's videos, and some pi creatures made by myself that don't appear in 3b1b's videos. You can also upload your own designs by pulling requests. ALL parts of the repository are public, and you can use them anywhere you want. However, we put them here for reference only, do not use them for commercial purposes!
 
 ## Usage
 
@@ -22,7 +26,7 @@ This folder contains some pi creatures' SVG file that made by myself, and they a
 
 **pi_creature.py**:
 
-This python file is from cairo-backend, but we changed it a little (line 53 ~ 56) to see all the pi creatures. Use the modified file instead of the original one to see cute pi.
+This python file is from cairo-backend, but we changed it a little (line 53 ~ 56) to see all the pi creatures. Use the modified file instead of the original one to see lovely pi.
 
 ## Effect
 
@@ -93,4 +97,4 @@ You can name this file as `start.py` and then use this command:
 
 `python -m manim start.py`
 
-If it's exporting a video, you have successfully installed cairo-backend.
+If it exports a video, you have successfully installed cairo-backend.

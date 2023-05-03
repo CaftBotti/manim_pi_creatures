@@ -1,6 +1,6 @@
 # Manim PiCreature
 
-All pi creatures that appear in 3b1b video that is used for making pi creature scenes with manim.
+All pi creatures that appear in 3b1b video that is used for making pi creature scenes with manim. 用manim制作像3b1b视频里一样的pi小人动画
 
 > Have you ever seen some lovely pi in 3b1b's videos? Do you want to make those animations as well? You may feel frustrated with that the original manim cairo-backend always makes emotionful pi creatures become "plain" because you only have "PiCreature_plain.svg" but not other designs! 
 >

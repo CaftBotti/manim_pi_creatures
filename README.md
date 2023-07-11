@@ -1,6 +1,6 @@
 # Manim PiCreature
 
-[![Designs collected](https://img.shields.io/badge/Designs%20collected-49-brightgreen)](https://github.com/CaftBotti/manim_pi_creatures)
+[![Designs collected](https://img.shields.io/badge/Designs%20collected-50-brightgreen)](https://github.com/CaftBotti/manim_pi_creatures)
 [![Stars](https://img.shields.io/github/stars/CaftBotti/manim_pi_creatures?style=social)](https://github.com/CaftBotti/manim_pi_creatures)
 
 All pi creatures that appear in 3b1b video that is used for making pi creature scenes with manim. Thank you for your star! 用manim制作像3b1b视频里一样的pi小人动画。请点一个star，谢谢!
